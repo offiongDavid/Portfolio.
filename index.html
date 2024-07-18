@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+
+    <title>PortFolio</title>
+</head>
+
+<body>
+    <div class="nav-container">
+        <div class="head-text">
+            <h1>Drex--<span style="color: aqua">Dev </span></h1>
+            <img src="icons8-programmer-64.png" width="40px" height="40px">
+        </div>
+        <div class="open-icon">
+            <i class="ri-menu-line" onclick="showLoginForm()" style="color: white;"></i>
+        </div>
+
+        <div class="close-icon">
+
+        </div>
+
+
+
+        <nav class="nav-links" id="nav-bar-link">
+            <i class="ri-close-line" onclick="hideLoginForm()" style="color: white;"></i>
+            <a href="#Home" onclick="closePage()"><span class="Active" id="length-text">Home</span> </a>
+            <a href="#About" onclick="closePage()"><span class="second-active" id="length-text">About</span> </a>
+            <a href="#project" onclick="closePage()"> <span class="lenghty" onclick="closePage()">Projects</span> </a>
+
+
+            <a href="#skill" onclick="closePage()"> <span class="lenghty" onclick="closePage()">skill</span> </a>
+            <a href="#services" onclick="closePage()"> <span class="lenghty">Services</span> </a>
+            <a href="#contact" onclick="closePage()"><span class="lenghty">Contact</span></a>
+        </nav>
+    </div>
+
+    <!-- Home-section -->
+    <section class="home" id="Home">
+        <div class="home-container">
+            <div class="home-section">
+                <div class="image">
+                    <img src="pic.jpg" class="portfolio-pic" width="250px" height="250px">
+                </div>
+            </div>
+
+            <div class="text-link-container">
+                <h1>It's <span style="color: aqua;">David</span></h1>
+                <h3>I'm a <span style="color: aqua;" id="element"></span></h3>
+            </div>
+
+            <div class="abt-text" style="color: whitesmoke; ">
+                I'm a passionate web designer with a keen eye for detail and a love for creating stunning online
+                experiences. <br> With 3 years of experience in the industry, I've honed my skills in crafting
+                responsive, user-friendly, and visually appealing websites that drive results.
+            </div>
+
+            <div class="icons" style="color: whitesmoke;">
+                <a href="http://web.facebook.com/profile.php?id=100085913710155" target="" rel="noopener noreferrer"> <i
+                        class="ri-facebook-line"></i>
+                </a>
+                <a href="https://x.com/@DavidOffiong11" target="" rel="noopener noreferrer">
+                    <i class="ri-twitter-x-line"></i>
+                </a>
+
+                <a href="https://github.com/offiongDavid" target="" rel="noopener noreferrer">
+                    <i class="ri-github-line"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/david-offiong-b61628254/" target="" rel="noopener noreferrer"><i
+                        class="ri-linkedin-line"></i></a>
+
+            </div>
+
+            <div class="btn-link">
+                <a href="#" class="Active-link">Hire Me</a>
+                <a href="https://drive.google.com/file/d/15PNuNi2WAiLd4CdGnNk7Avv1V3JFpkGV/view?usp=drive_link"
+                    class="cv-link">Download CV <i class="ri-download-line"></i></a>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About ma section -->
+    <section class="about" id="About">
+        <div class="flex-container">
+            <div class="about-me-container">
+                <div class="about-me">
+                    <h1>About <span style="color: aqua;">Me</span></h1>
+
+                    <span class="abt-me-text"
+                        style="color: aqua; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; margin-top: 1.5rem;"
+                        id="Element-2"></span>
+                </div>
+                <div class="text-2">
+                    David, a web designer with a passion for creating digital experiences that inspire and engage. With
+                    a
+                    background in computer science, I've developed a unique blend of technical skills and creative
+                    vision
+                    that helps me craft websites that truly stand out.
+                </div>
+                <div class="btn-read-more">
+                    <a href="#" class="cv-link">Read More</a>
+                </div>
+            </div>
+
+            <div class="img-2">
+                <img src="pic.jpg" class="portfolio-pic" width="250px" height="250px">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- My skills -->
+    <section class="skills" id="skill">
+        <div class="skill-container">
+            <h1>My <span style="color: aqua;">Skills</span></h1>
+            <div class="skill-flex">
+                <div class="tech-skill">
+                    <h2>Technical skills</h2>
+
+                    <div class="bars">
+                        <div class="html-bar">
+                            <i class="ri-html5-fill" style="color: white; width: 30px; height: 30px;"></i>
+                            <div class="t-1"><span>HTML</span></div>
+
+                        </div>
+                        <div class="progress">
+
+                            <span class="percent">90%</span>
+                            <div class="progress-bars" style="width: 90%;"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="bars">
+                        <div class="html-bar">
+                            <i class="ri-css3-line" style="color: white;"></i>
+                            <div class="t-2">
+                                <span>CSS</span>
+                            </div>
+                        </div>
+
+
+
+                        <div class="progress-2">
+                            <span class="percent">85%</span>
+                            <div class="progress-bars-2" style="width: 85%;"></div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="bars">
+                        <div class="html-bar">
+                            <i class="ri-javascript-fill" style="color: white;"></i>
+                            <div class="t-3"><span>JavaScript</span></div>
+
+                        </div>
+
+                        <div class="progress-3">
+                            <span class="percent">65%</span>
+                            <div class="progress-bars-3 " style="width: 65%;"></div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="bars">
+                        <div class="html-bar">
+                            <i class="ri-bootstrap-fill" style="color: white;"></i>
+                            <div class="t-4"><span>Bootstrap</span></div>
+
+                        </div>
+
+                        <div class="progress-4">
+                            <span class="percent">95%</span>
+                            <div class="progress-bars-4 " style="width: 95%;"></div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+                <div class="container1">
+                    <div class="heading">
+                        <h2>Professional Skills</h2>
+                        <div class="all">
+
+                            <div class="first-flex">
+                                <div class="circle-wrap">
+                                    <div class="circle">
+                                        <div class="mask full-1">
+                                            <div class="fill-1"></div>
+                                        </div>
+
+                                        <div class="mask half">
+                                            <div class="fill-1"></div>
+                                        </div>
+
+                                        <div class="inside-circle">
+                                            75%
+                                        </div>
+
+                                    </div>
+                                    <div class="text-circle">
+                                        <h2>Leadership</h2>
+                                    </div>
+                                </div>
+
+
+                                <div class="circle-wrap">
+                                    <div class="circle">
+                                        <div class="mask full-2">
+                                            <div class="fill-2"></div>
+                                        </div>
+
+                                        <div class="mask half">
+                                            <div class="fill-2"></div>
+                                        </div>
+
+                                        <div class="inside-circle">
+                                            40%
+                                        </div>
+
+                                    </div>
+                                    <div class="text-circle">
+                                        <h2>Communication </h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="second-flex">
+                                <div class="circle-wrap">
+                                    <div class="circle">
+                                        <div class="mask full-3">
+                                            <div class="fill-3"></div>
+                                        </div>
+
+                                        <div class="mask half">
+                                            <div class="fill-3"></div>
+                                        </div>
+
+                                        <div class="inside-circle">
+                                            80%
+                                        </div>
+
+                                    </div>
+                                    <div class="text-circle1">
+                                        <h2>Web Development</h2>
+                                    </div>
+                                </div>
+
+                                <div class="circle-wrap">
+                                    <div class="circle">
+                                        <div class="mask full-4">
+                                            <div class="fill-4"></div>
+                                        </div>
+
+                                        <div class="mask half">
+                                            <div class="fill-4"></div>
+                                        </div>
+
+                                        <div class="inside-circle">
+                                            55%
+                                        </div>
+
+                                    </div>
+                                    <div class="text-circle1">
+                                        <h2>Graphic Design</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+    </section>
+
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="service-container">
+            <h1>My <span style="color: aqua;">Services</span></h1>
+
+            <div class="service-flex-conntainer">
+                <div class="service-flex-item">
+                    <div class="img1">
+                        <img src="icons8-web-design-50.png" alt="">
+                    </div>
+                    <h2>Web Design</h2>
+
+                    <p> Web designer with a passion for crafting unique digital experiences. Skilled in creating
+                        responsive, user-friendly websites that drive results. </p>
+
+                    <div class="link">
+                        <a href="#" class="cv-link">Read More <i class="ri-arrow-right-up-line"></i></a>
+                    </div>
+                </div>
+
+                <div class="service-flex-item">
+                    <div class="img1">
+                        <img src="icons8-graphic-design-64 (1).png" alt="">
+                    </div>
+                    <h2>Graphic Design</h2>
+
+                    <p> Visual storyteller and graphic designer with a passion for creating bold, eye-catching designs.
+                        Skilled in crafting logos, icons, and graphics.</p>
+
+                    <div class="link">
+                        <a href="#" class="cv-link">Read More <i class="ri-arrow-right-up-line"></i></a>
+                    </div>
+                </div>
+
+                <div class="service-flex-item">
+                    <div class="img1">
+                        <img src="icons8-web-development-64.png" alt="">
+                    </div>
+                    <h2>Web Development</h2>
+
+                    <p> web developer with a passion for building fast, scalable, and secure websites. Skilled in
+                        crafting custom solutions using technologies like HTML, CSS, JavaScript, React, Node.js,php.</p>
+
+                    <div class="link">
+                        <a href="#" class="cv-link">Read More <i class="ri-arrow-right-up-line"></i></a>
+                    </div>
+                </div>
+
+                <div class="service-flex-item">
+                    <div class="img1">
+                        <img src="icons8-responsive-50.png" alt="">
+                    </div>
+                    <h2>Responsive Design</h2>
+
+                    <p> Responsive design expert crafting seamless user experiences across devices and screens.</p>
+
+                    <div class="link">
+                        <a href="# " class="cv-link">Read More <i class="ri-arrow-right-up-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- project -->
+    <section class="project" id="project">
+        <div class="container-project">
+            <h1>My <span style="color: aqua;">Project</span></h1>
+            <div class="projects">
+                <div class="project-items">
+                    <img src="first project.PNG" class="img-p-1" width="350px" height="200px">
+                    <div class="image-text">
+                        <p>Food Website</p>
+                        <a href="#"><i class="ri-arrow-right-up-line"></i></a>
+
+
+                    </div>
+
+                </div>
+
+                <div class="project-items">
+                    <img src="project3.PNG " class="img-p-1" width="350px" height="200px">
+                    <div class="image-text">
+                        <p>Cloned Template</p>
+                        <a href="#"><i class="ri-arrow-right-up-line"></i></a>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="projects-2">
+                <div class="project-items1">
+                    <img src="project4.PNG" class="img-p-1" width="350px" height="200px">
+                    <div class="image-text">
+                        <p>Loan Calculator</p>
+                        <a href="#"><i class="ri-arrow-right-up-line"></i></a>
+
+                    </div>
+
+                </div>
+
+                <div class="project-items1">
+                    <img src="project5.PNG" class="img-p-1" width="350px" height="200px">
+                    <div class="image-text">
+                        <p>Cloned Oraimo Website</p>
+
+                        <a href="#" id="oraimo"><i class="ri-arrow-right-up-line"></i></a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1>Contact <span style="color: aqua;">Me</span> </h1>
+        <div class="contact-container">
+            <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSeP2uOQe6JJ-Yar9DAfrihZEnqpVlYcAmbMaO1VjUb8BuQCcQ/viewform?embedded=true"
+                width="350" height="567" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+    </section>
+
+
+
+    <section class="ending" id="footer">
+        <div class="footer-container">
+            <div class="icons" style="color: whitesmoke;">
+                <a href="http://web.facebook.com/profile.php?id=100085913710155" target="" rel="noopener noreferrer"> <i
+                        class="ri-facebook-line"></i>
+                </a>
+                <a href="https://x.com/@DavidOffiong11" target="" rel="noopener noreferrer">
+                    <i class="ri-twitter-x-line"></i>
+                </a>
+
+                <a href="https://github.com/offiongDavid" target="" rel="noopener noreferrer">
+                    <i class="ri-github-line"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/david-offiong-b61628254/" target="" rel="noopener noreferrer"><i
+                        class="ri-linkedin-line"></i></a>
+
+            </div>
+
+
+            <div class="links">
+                <a href="#services">Services</a>
+                <a href="#About me">About me</a>
+                <a href="#contact">Contact</a>
+                <a href="#Project">Project</a>
+            </div>
+
+            <div class="copywright">
+                <h4>@Offiong David|Portfolio</h4>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer.', 'Digital Marketer', 'Educator', 'Web Designer'],
+            typeSpeed: 100,
+            backSpeed: 50,
+            loop: true,
+        });
+
+        var typed = new Typed('#Element-2', {
+            strings: ['Web Developer', 'Graphic Designer.', 'Digital Marketer', 'Educator', 'Web Designer'],
+            typeSpeed: 100,
+            backSpeed: 50,
+            loop: true,
+        });
+    </script>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
